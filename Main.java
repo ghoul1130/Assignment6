@@ -60,3 +60,53 @@ public class Main {
         System.out.println("Size: " + myList.size());
     }
 }
+
+---OUTPUT---
+--- Q1: Student Registration ---
+Added: Alice (ID: S1)
+Added: Bob (ID: S2)
+Added: Charlie (ID: S3)
+Added: Diana (ID: S4)
+Added: Eve (ID: S5)
+Find S3: Charlie
+Find S6: Student not found.
+
+--- Q2: Library Catalog ---
+Book added: Java Programming
+Book added: Data Structures
+Book added: Algorithms
+Book added: Python Basics
+Book added: Web Development
+Books in alphabetical order:
+Algorithms
+Data Structures
+Java Programming
+Python Basics
+Web Development
+
+--- Q3: Shopping Cart ---
+Laptop added to cart.
+Mouse added to cart.
+Keyboard added to cart.
+Monitor added to cart.
+Headphones added to cart.
+USB Cable added to cart.
+Current Cart: [Laptop, Mouse, Keyboard, Monitor, Headphones, USB Cable]
+Get item at index 2: Keyboard
+Removed: Monitor
+Current Cart: [Laptop, Mouse, Keyboard, Headphones, USB Cable]
+
+--- Q4: Task Manager ---
+Added Task: Fix Bug (Priority 2)
+Added Task: Write Report (Priority 3)
+Added Task: Deploy App (Priority 1)
+Added Task: Code Review (Priority 4)
+Added Task: Update Docs (Priority 5)
+Processing Task: Deploy App (Priority 1)
+Processing Task: Fix Bug (Priority 2)
+
+--- Q5: Custom LinkedList ---
+One -> Two -> Three -> Four -> null
+Element at index 2: Three
+One -> Three -> Four -> null
+Size: 3
